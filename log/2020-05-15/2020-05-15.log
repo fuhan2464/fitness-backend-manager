@@ -1,0 +1,1013 @@
+2020-05-15 19:34:16 -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@74e9ed64: startup date [Fri May 15 19:34:16 CST 2020]; root of context hierarchy
+2020-05-15 19:34:16 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 19:34:16 -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7c1836a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:16 -No active profile set, falling back to default profiles: default
+2020-05-15 19:34:16 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@556e2c1f: startup date [Fri May 15 19:34:16 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@74e9ed64
+2020-05-15 19:34:17 -Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-05-15 19:34:17 -BeanFactory id=1a051678-e738-30fc-a13c-25d22d6105d2
+2020-05-15 19:34:17 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 19:34:17 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5ffe33aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2020-05-15 19:34:17 -Bean 'dataSource' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$aece613e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$f4722eb4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration$$EnhancerBySpringCGLIB$$cfecc19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'transactionAdviceConfig' of type [com.fitness.backend.config.TransactionAdviceConfig$$EnhancerBySpringCGLIB$$148f9028] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:17 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7c1836a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 19:34:18 -Tomcat initialized with port(s): 9001 (http)
+2020-05-15 19:34:18 -Initializing ProtocolHandler ["http-nio-9001"]
+2020-05-15 19:34:18 -Starting service [Tomcat]
+2020-05-15 19:34:18 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2020-05-15 19:34:18 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fuhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-05-15 19:34:18 -Initializing Spring embedded WebApplicationContext
+2020-05-15 19:34:18 -Root WebApplicationContext: initialization completed in 1855 ms
+2020-05-15 19:34:18 -Servlet dispatcherServlet mapped to [/]
+2020-05-15 19:34:18 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-15 19:34:18 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-15 19:34:18 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-15 19:34:18 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-15 19:34:19 -Mapped "{[/service/employeesBasis/add],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.add(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 19:34:19 -Mapped "{[/service/employeesBasis/update],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.update(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 19:34:19 -Mapped "{[/service/employeesBasis/delete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.delete(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 19:34:19 -Mapped "{[/service/employeesBasis/select],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.select(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 19:34:19 -Mapped "{[/service/employeesBasis/batchUpdate],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchUpdate(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 19:34:19 -Mapped "{[/service/employeesBasis/likeSelect],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.likeSelect(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 19:34:19 -Mapped "{[/service/employeesBasis/batchAdd],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchAdd(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 19:34:19 -Mapped "{[/service/employeesBasis/batchDelete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchDelete(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 19:34:19 -Mapped "{[/service/employeesBasis/exportExcel]}" onto public void com.fitness.backend.controller.EmployeesBasisRestService.exportExcel(com.fitness.backend.entity.EmployeesBasisEntity,javax.servlet.http.HttpServletResponse)
+2020-05-15 19:34:19 -Mapped "{[/login/doLogin],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogin(com.fitness.backend.entity.User,javax.servlet.http.HttpSession)
+2020-05-15 19:34:19 -Mapped "{[/login/doLogOut],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogOut(javax.servlet.http.HttpSession)
+2020-05-15 19:34:19 -Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-05-15 19:34:19 -Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-05-15 19:34:19 -Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-05-15 19:34:19 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-15 19:34:19 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-15 19:34:19 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-15 19:34:19 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 19:34:19 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 19:34:19 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 19:34:19 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 19:34:19 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 19:34:19 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@556e2c1f: startup date [Fri May 15 19:34:16 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@74e9ed64
+2020-05-15 19:34:19 -Mapped URL path [/employees_basis/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 19:34:19 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 19:34:19 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 19:34:19 -Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 19:34:19 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 19:34:19 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 19:34:19 -Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 19:34:19 -Detected @ExceptionHandler methods in allExceptionHandler
+2020-05-15 19:34:19 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-05-15 19:34:19 -Unable to start LiveReload server
+2020-05-15 19:34:20 -Registering beans for JMX exposure on startup
+2020-05-15 19:34:20 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-05-15 19:34:20 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-05-15 19:34:20 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-05-15 19:34:20 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-05-15 19:34:20 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-05-15 19:34:20 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-05-15 19:34:20 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=556e2c1f,type=ConfigurationPropertiesRebinder]
+2020-05-15 19:34:20 -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-05-15 19:34:20 -Starting beans in phase 0
+2020-05-15 19:34:20 -Setting initial instance status as: STARTING
+2020-05-15 19:34:20 -Initializing Eureka in region us-east-1
+2020-05-15 19:34:20 -Using JSON encoding codec LegacyJacksonJson
+2020-05-15 19:34:20 -Using JSON decoding codec LegacyJacksonJson
+2020-05-15 19:34:20 -Using XML encoding codec XStreamXml
+2020-05-15 19:34:20 -Using XML decoding codec XStreamXml
+2020-05-15 19:34:20 -Resolving eureka endpoints via configuration
+2020-05-15 19:34:20 -Disable delta property : false
+2020-05-15 19:34:20 -Single vip registry refresh property : null
+2020-05-15 19:34:20 -Force full registry fetch : false
+2020-05-15 19:34:20 -Application is null : false
+2020-05-15 19:34:20 -Registered Applications size is zero : true
+2020-05-15 19:34:20 -Application version is -1: true
+2020-05-15 19:34:20 -Getting all instance registry info from the eureka server
+2020-05-15 19:34:20 -The response status is 200
+2020-05-15 19:34:20 -Starting heartbeat executor: renew interval is: 30
+2020-05-15 19:34:20 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-15 19:34:20 -Discovery Client initialized at timestamp 1589542460833 with initial instances count: 1
+2020-05-15 19:34:20 -Registering application FITNESS-BACKEND-SERVICE with eureka with status UP
+2020-05-15 19:34:20 -Saw local status change event StatusChangeEvent [timestamp=1589542460844, current=UP, previous=STARTING]
+2020-05-15 19:34:20 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 19:34:20 -Starting beans in phase 2147483647
+2020-05-15 19:34:20 -Context refreshed
+2020-05-15 19:34:20 -Found 1 custom documentation plugin(s)
+2020-05-15 19:34:20 -Scanning for api listing references
+2020-05-15 19:34:20 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 19:34:20 -Starting ProtocolHandler ["http-nio-9001"]
+2020-05-15 19:34:20 -Using a shared selector for servlet write/read
+2020-05-15 19:34:20 -Tomcat started on port(s): 9001 (http) with context path ''
+2020-05-15 19:34:20 -Updating port to 9001
+2020-05-15 19:34:20 -Started FitnessBackendServiceApplication in 5.014 seconds (JVM running for 5.851)
+2020-05-15 19:39:20 -Resolving eureka endpoints via configuration
+2020-05-15 19:44:20 -Resolving eureka endpoints via configuration
+2020-05-15 19:49:17 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-15 19:49:17 -FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-15 19:49:17 -FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2020-05-15 19:49:20 -Resolving eureka endpoints via configuration
+2020-05-15 19:54:20 -Resolving eureka endpoints via configuration
+2020-05-15 19:59:20 -Resolving eureka endpoints via configuration
+2020-05-15 20:01:23 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@556e2c1f: startup date [Fri May 15 19:34:16 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@74e9ed64
+2020-05-15 20:01:23 -Unregistering application FITNESS-BACKEND-SERVICE with eureka with status DOWN
+2020-05-15 20:01:23 -Saw local status change event StatusChangeEvent [timestamp=1589544083516, current=DOWN, previous=UP]
+2020-05-15 20:01:23 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:01:23 -Stopping beans in phase 2147483647
+2020-05-15 20:01:23 -Stopping beans in phase 0
+2020-05-15 20:01:23 -Unregistering JMX-exposed beans on shutdown
+2020-05-15 20:01:23 -Unregistering JMX-exposed beans
+2020-05-15 20:01:23 -Shutting down DiscoveryClient ...
+2020-05-15 20:01:23 -Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-05-15 20:01:23 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 20:01:25 -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6fc41929: startup date [Fri May 15 20:01:25 CST 2020]; root of context hierarchy
+2020-05-15 20:01:26 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:01:26 -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4408b5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:26 -No active profile set, falling back to default profiles: default
+2020-05-15 20:01:26 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2699004: startup date [Fri May 15 20:01:26 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6fc41929
+2020-05-15 20:01:27 -Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-05-15 20:01:27 -BeanFactory id=1a051678-e738-30fc-a13c-25d22d6105d2
+2020-05-15 20:01:27 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:01:27 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8268860] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2020-05-15 20:01:27 -Bean 'dataSource' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$98ba03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$7c9a836a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration$$EnhancerBySpringCGLIB$$952720cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'transactionAdviceConfig' of type [com.fitness.backend.config.TransactionAdviceConfig$$EnhancerBySpringCGLIB$$9cb7e4de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:27 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4408b5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:01:28 -Tomcat initialized with port(s): 9001 (http)
+2020-05-15 20:01:28 -Initializing ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:01:28 -Starting service [Tomcat]
+2020-05-15 20:01:28 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2020-05-15 20:01:28 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fuhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-05-15 20:01:28 -Initializing Spring embedded WebApplicationContext
+2020-05-15 20:01:28 -Root WebApplicationContext: initialization completed in 1991 ms
+2020-05-15 20:01:28 -Servlet dispatcherServlet mapped to [/]
+2020-05-15 20:01:28 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-15 20:01:28 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-15 20:01:28 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-15 20:01:28 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-15 20:01:28 -Mapped "{[/service/employeesBasis/add],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.add(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:01:28 -Mapped "{[/service/employeesBasis/update],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.update(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:01:28 -Mapped "{[/service/employeesBasis/delete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.delete(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:01:28 -Mapped "{[/service/employeesBasis/batchUpdate],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchUpdate(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:01:28 -Mapped "{[/service/employeesBasis/select],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.select(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:01:28 -Mapped "{[/service/employeesBasis/likeSelect],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.likeSelect(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:01:28 -Mapped "{[/service/employeesBasis/batchAdd],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchAdd(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:01:28 -Mapped "{[/service/employeesBasis/batchDelete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchDelete(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:01:28 -Mapped "{[/service/employeesBasis/exportExcel]}" onto public void com.fitness.backend.controller.EmployeesBasisRestService.exportExcel(com.fitness.backend.entity.EmployeesBasisEntity,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:01:28 -Mapped "{[/login/doLogin],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogin(com.fitness.backend.entity.User,javax.servlet.http.HttpSession)
+2020-05-15 20:01:28 -Mapped "{[/login/doLogOut],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogOut(javax.servlet.http.HttpSession)
+2020-05-15 20:01:28 -Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-05-15 20:01:28 -Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-05-15 20:01:28 -Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-05-15 20:01:29 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-15 20:01:29 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:01:29 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-15 20:01:29 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:01:29 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:01:29 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:01:29 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:01:29 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:01:29 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2699004: startup date [Fri May 15 20:01:26 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6fc41929
+2020-05-15 20:01:29 -Mapped URL path [/employees_basis/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:01:29 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:01:29 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:01:29 -Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:01:29 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:01:29 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:01:29 -Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:01:29 -Detected @ExceptionHandler methods in allExceptionHandler
+2020-05-15 20:01:29 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-05-15 20:01:29 -Unable to start LiveReload server
+2020-05-15 20:01:30 -Registering beans for JMX exposure on startup
+2020-05-15 20:01:30 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-05-15 20:01:30 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-05-15 20:01:30 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-05-15 20:01:30 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-05-15 20:01:30 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-05-15 20:01:30 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-05-15 20:01:30 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2699004,type=ConfigurationPropertiesRebinder]
+2020-05-15 20:01:30 -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-05-15 20:01:30 -Starting beans in phase 0
+2020-05-15 20:01:30 -Setting initial instance status as: STARTING
+2020-05-15 20:01:30 -Initializing Eureka in region us-east-1
+2020-05-15 20:01:30 -Using JSON encoding codec LegacyJacksonJson
+2020-05-15 20:01:30 -Using JSON decoding codec LegacyJacksonJson
+2020-05-15 20:01:30 -Using XML encoding codec XStreamXml
+2020-05-15 20:01:30 -Using XML decoding codec XStreamXml
+2020-05-15 20:01:30 -Resolving eureka endpoints via configuration
+2020-05-15 20:01:30 -Disable delta property : false
+2020-05-15 20:01:30 -Single vip registry refresh property : null
+2020-05-15 20:01:30 -Force full registry fetch : false
+2020-05-15 20:01:30 -Application is null : false
+2020-05-15 20:01:30 -Registered Applications size is zero : true
+2020-05-15 20:01:30 -Application version is -1: true
+2020-05-15 20:01:30 -Getting all instance registry info from the eureka server
+2020-05-15 20:01:30 -The response status is 200
+2020-05-15 20:01:30 -Starting heartbeat executor: renew interval is: 30
+2020-05-15 20:01:30 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-15 20:01:30 -Discovery Client initialized at timestamp 1589544090723 with initial instances count: 2
+2020-05-15 20:01:30 -Registering application FITNESS-BACKEND-SERVICE with eureka with status UP
+2020-05-15 20:01:30 -Saw local status change event StatusChangeEvent [timestamp=1589544090734, current=UP, previous=STARTING]
+2020-05-15 20:01:30 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:01:30 -Starting beans in phase 2147483647
+2020-05-15 20:01:30 -Context refreshed
+2020-05-15 20:01:30 -Found 1 custom documentation plugin(s)
+2020-05-15 20:01:30 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 20:01:30 -Scanning for api listing references
+2020-05-15 20:01:30 -Starting ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:01:30 -Using a shared selector for servlet write/read
+2020-05-15 20:01:30 -Tomcat started on port(s): 9001 (http) with context path ''
+2020-05-15 20:01:30 -Updating port to 9001
+2020-05-15 20:01:30 -Started FitnessBackendServiceApplication in 5.215 seconds (JVM running for 5.947)
+2020-05-15 20:01:44 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-15 20:01:44 -FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-15 20:01:44 -FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2020-05-15 20:03:48 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2699004: startup date [Fri May 15 20:01:26 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6fc41929
+2020-05-15 20:03:48 -Unregistering application FITNESS-BACKEND-SERVICE with eureka with status DOWN
+2020-05-15 20:03:48 -Saw local status change event StatusChangeEvent [timestamp=1589544228943, current=DOWN, previous=UP]
+2020-05-15 20:03:48 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:03:48 -Stopping beans in phase 2147483647
+2020-05-15 20:03:48 -Stopping beans in phase 0
+2020-05-15 20:03:48 -Unregistering JMX-exposed beans on shutdown
+2020-05-15 20:03:48 -Unregistering JMX-exposed beans
+2020-05-15 20:03:48 -Shutting down DiscoveryClient ...
+2020-05-15 20:03:48 -Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-05-15 20:04:49 -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@fe8d556: startup date [Fri May 15 20:04:49 CST 2020]; root of context hierarchy
+2020-05-15 20:04:49 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:04:50 -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9e4b5827] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:50 -No active profile set, falling back to default profiles: default
+2020-05-15 20:04:50 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@319ebcd0: startup date [Fri May 15 20:04:50 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@fe8d556
+2020-05-15 20:04:51 -Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-05-15 20:04:51 -BeanFactory id=1a051678-e738-30fc-a13c-25d22d6105d2
+2020-05-15 20:04:51 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:04:51 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8231552a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2020-05-15 20:04:51 -Bean 'dataSource' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$a09a325f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$16a55034] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration$$EnhancerBySpringCGLIB$$2f31ed99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'transactionAdviceConfig' of type [com.fitness.backend.config.TransactionAdviceConfig$$EnhancerBySpringCGLIB$$36c2b1a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9e4b5827] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:04:51 -Tomcat initialized with port(s): 9001 (http)
+2020-05-15 20:04:51 -Initializing ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:04:51 -Starting service [Tomcat]
+2020-05-15 20:04:51 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2020-05-15 20:04:51 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fuhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-05-15 20:04:52 -Initializing Spring embedded WebApplicationContext
+2020-05-15 20:04:52 -Root WebApplicationContext: initialization completed in 1838 ms
+2020-05-15 20:04:52 -Servlet dispatcherServlet mapped to [/]
+2020-05-15 20:04:52 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-15 20:04:52 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-15 20:04:52 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-15 20:04:52 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-15 20:04:52 -Mapped "{[/service/employeesBasis/add],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.add(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:04:52 -Mapped "{[/service/employeesBasis/update],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.update(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:04:52 -Mapped "{[/service/employeesBasis/delete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.delete(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:04:52 -Mapped "{[/service/employeesBasis/batchAdd],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchAdd(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:04:52 -Mapped "{[/service/employeesBasis/likeSelect],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.likeSelect(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:04:52 -Mapped "{[/service/employeesBasis/batchDelete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchDelete(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:04:52 -Mapped "{[/service/employeesBasis/exportExcel]}" onto public void com.fitness.backend.controller.EmployeesBasisRestService.exportExcel(com.fitness.backend.entity.EmployeesBasisEntity,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:04:52 -Mapped "{[/service/employeesBasis/batchUpdate],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchUpdate(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:04:52 -Mapped "{[/service/employeesBasis/select],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.select(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:04:52 -Mapped "{[/login/doLogin],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogin(com.fitness.backend.entity.User,javax.servlet.http.HttpSession)
+2020-05-15 20:04:52 -Mapped "{[/login/doLogOut],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogOut(javax.servlet.http.HttpSession)
+2020-05-15 20:04:52 -Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-05-15 20:04:52 -Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-05-15 20:04:52 -Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-05-15 20:04:52 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-15 20:04:52 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:04:52 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-15 20:04:52 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:04:52 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:04:52 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:04:52 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:04:52 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:04:53 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@319ebcd0: startup date [Fri May 15 20:04:50 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@fe8d556
+2020-05-15 20:04:53 -Mapped URL path [/employees_basis/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:04:53 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:04:53 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:04:53 -Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:04:53 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:04:53 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:04:53 -Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:04:53 -Detected @ExceptionHandler methods in allExceptionHandler
+2020-05-15 20:04:53 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-05-15 20:04:53 -Unable to start LiveReload server
+2020-05-15 20:04:53 -Registering beans for JMX exposure on startup
+2020-05-15 20:04:53 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-05-15 20:04:53 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-05-15 20:04:53 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-05-15 20:04:53 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-05-15 20:04:53 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-05-15 20:04:53 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-05-15 20:04:53 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=319ebcd0,type=ConfigurationPropertiesRebinder]
+2020-05-15 20:04:53 -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-05-15 20:04:53 -Starting beans in phase 0
+2020-05-15 20:04:53 -Setting initial instance status as: STARTING
+2020-05-15 20:04:53 -Initializing Eureka in region us-east-1
+2020-05-15 20:04:54 -Using JSON encoding codec LegacyJacksonJson
+2020-05-15 20:04:54 -Using JSON decoding codec LegacyJacksonJson
+2020-05-15 20:04:54 -Using XML encoding codec XStreamXml
+2020-05-15 20:04:54 -Using XML decoding codec XStreamXml
+2020-05-15 20:04:54 -Resolving eureka endpoints via configuration
+2020-05-15 20:04:54 -Disable delta property : false
+2020-05-15 20:04:54 -Single vip registry refresh property : null
+2020-05-15 20:04:54 -Force full registry fetch : false
+2020-05-15 20:04:54 -Application is null : false
+2020-05-15 20:04:54 -Registered Applications size is zero : true
+2020-05-15 20:04:54 -Application version is -1: true
+2020-05-15 20:04:54 -Getting all instance registry info from the eureka server
+2020-05-15 20:04:54 -The response status is 200
+2020-05-15 20:04:54 -Starting heartbeat executor: renew interval is: 30
+2020-05-15 20:04:54 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-15 20:04:54 -Discovery Client initialized at timestamp 1589544294476 with initial instances count: 2
+2020-05-15 20:04:54 -Registering application FITNESS-BACKEND-SERVICE with eureka with status UP
+2020-05-15 20:04:54 -Saw local status change event StatusChangeEvent [timestamp=1589544294487, current=UP, previous=STARTING]
+2020-05-15 20:04:54 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:04:54 -Starting beans in phase 2147483647
+2020-05-15 20:04:54 -Context refreshed
+2020-05-15 20:04:54 -Found 1 custom documentation plugin(s)
+2020-05-15 20:04:54 -Scanning for api listing references
+2020-05-15 20:04:54 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 20:04:54 -Starting ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:04:54 -Using a shared selector for servlet write/read
+2020-05-15 20:04:54 -Tomcat started on port(s): 9001 (http) with context path ''
+2020-05-15 20:04:54 -Updating port to 9001
+2020-05-15 20:04:54 -Started FitnessBackendServiceApplication in 5.113 seconds (JVM running for 5.896)
+2020-05-15 20:07:04 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@319ebcd0: startup date [Fri May 15 20:04:50 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@fe8d556
+2020-05-15 20:07:04 -Unregistering application FITNESS-BACKEND-SERVICE with eureka with status DOWN
+2020-05-15 20:07:04 -Saw local status change event StatusChangeEvent [timestamp=1589544424034, current=DOWN, previous=UP]
+2020-05-15 20:07:04 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:07:04 -Stopping beans in phase 2147483647
+2020-05-15 20:07:04 -Stopping beans in phase 0
+2020-05-15 20:07:04 -Unregistering JMX-exposed beans on shutdown
+2020-05-15 20:07:04 -Unregistering JMX-exposed beans
+2020-05-15 20:07:04 -Shutting down DiscoveryClient ...
+2020-05-15 20:07:04 -Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-05-15 20:07:04 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 20:07:06 -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3f614400: startup date [Fri May 15 20:07:06 CST 2020]; root of context hierarchy
+2020-05-15 20:07:06 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:07:06 -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2b530ae4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:06 -No active profile set, falling back to default profiles: default
+2020-05-15 20:07:06 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2680c934: startup date [Fri May 15 20:07:06 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3f614400
+2020-05-15 20:07:07 -Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-05-15 20:07:07 -BeanFactory id=1a051678-e738-30fc-a13c-25d22d6105d2
+2020-05-15 20:07:07 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:07:07 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f3907e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:07 -Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2020-05-15 20:07:07 -Bean 'dataSource' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:07 -Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$aa9ef63e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:07 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:07 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:07 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:07 -Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$a3ad02f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:07 -Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:07 -Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:07 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration$$EnhancerBySpringCGLIB$$bc39a056] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:07 -Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:08 -Bean 'transactionAdviceConfig' of type [com.fitness.backend.config.TransactionAdviceConfig$$EnhancerBySpringCGLIB$$c3ca6465] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:08 -Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:08 -Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:08 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2b530ae4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:07:08 -Tomcat initialized with port(s): 9001 (http)
+2020-05-15 20:07:08 -Initializing ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:07:08 -Starting service [Tomcat]
+2020-05-15 20:07:08 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2020-05-15 20:07:08 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fuhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-05-15 20:07:08 -Initializing Spring embedded WebApplicationContext
+2020-05-15 20:07:08 -Root WebApplicationContext: initialization completed in 1785 ms
+2020-05-15 20:07:08 -Servlet dispatcherServlet mapped to [/]
+2020-05-15 20:07:08 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-15 20:07:08 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-15 20:07:08 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-15 20:07:08 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-15 20:07:09 -Mapped "{[/service/employeesBasis/add],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.add(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:07:09 -Mapped "{[/service/employeesBasis/update],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.update(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:07:09 -Mapped "{[/service/employeesBasis/delete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.delete(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:07:09 -Mapped "{[/service/employeesBasis/batchUpdate],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchUpdate(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:07:09 -Mapped "{[/service/employeesBasis/select],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.select(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:07:09 -Mapped "{[/service/employeesBasis/likeSelect],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.likeSelect(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:07:09 -Mapped "{[/service/employeesBasis/batchAdd],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchAdd(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:07:09 -Mapped "{[/service/employeesBasis/batchDelete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchDelete(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:07:09 -Mapped "{[/service/employeesBasis/exportExcel]}" onto public void com.fitness.backend.controller.EmployeesBasisRestService.exportExcel(com.fitness.backend.entity.EmployeesBasisEntity,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:07:09 -Mapped "{[/login/doLogin],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogin(com.fitness.backend.entity.User,javax.servlet.http.HttpSession)
+2020-05-15 20:07:09 -Mapped "{[/login/doLogOut],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogOut(javax.servlet.http.HttpSession)
+2020-05-15 20:07:09 -Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-05-15 20:07:09 -Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-05-15 20:07:09 -Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-05-15 20:07:09 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-15 20:07:09 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:07:09 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-15 20:07:09 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:07:09 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:07:09 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:07:09 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:07:09 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:07:09 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2680c934: startup date [Fri May 15 20:07:06 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3f614400
+2020-05-15 20:07:09 -Mapped URL path [/employees_basis/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:07:09 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:07:09 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:07:09 -Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:07:09 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:07:09 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:07:09 -Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:07:09 -Detected @ExceptionHandler methods in allExceptionHandler
+2020-05-15 20:07:09 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-05-15 20:07:10 -Unable to start LiveReload server
+2020-05-15 20:07:10 -Registering beans for JMX exposure on startup
+2020-05-15 20:07:10 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-05-15 20:07:10 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-05-15 20:07:10 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-05-15 20:07:10 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-05-15 20:07:10 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-05-15 20:07:10 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-05-15 20:07:10 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2680c934,type=ConfigurationPropertiesRebinder]
+2020-05-15 20:07:10 -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-05-15 20:07:10 -Starting beans in phase 0
+2020-05-15 20:07:10 -Setting initial instance status as: STARTING
+2020-05-15 20:07:10 -Initializing Eureka in region us-east-1
+2020-05-15 20:07:10 -Using JSON encoding codec LegacyJacksonJson
+2020-05-15 20:07:10 -Using JSON decoding codec LegacyJacksonJson
+2020-05-15 20:07:10 -Using XML encoding codec XStreamXml
+2020-05-15 20:07:10 -Using XML decoding codec XStreamXml
+2020-05-15 20:07:10 -Resolving eureka endpoints via configuration
+2020-05-15 20:07:10 -Disable delta property : false
+2020-05-15 20:07:10 -Single vip registry refresh property : null
+2020-05-15 20:07:10 -Force full registry fetch : false
+2020-05-15 20:07:10 -Application is null : false
+2020-05-15 20:07:10 -Registered Applications size is zero : true
+2020-05-15 20:07:10 -Application version is -1: true
+2020-05-15 20:07:10 -Getting all instance registry info from the eureka server
+2020-05-15 20:07:11 -The response status is 200
+2020-05-15 20:07:11 -Starting heartbeat executor: renew interval is: 30
+2020-05-15 20:07:11 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-15 20:07:11 -Discovery Client initialized at timestamp 1589544431039 with initial instances count: 2
+2020-05-15 20:07:11 -Registering application FITNESS-BACKEND-SERVICE with eureka with status UP
+2020-05-15 20:07:11 -Saw local status change event StatusChangeEvent [timestamp=1589544431050, current=UP, previous=STARTING]
+2020-05-15 20:07:11 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:07:11 -Starting beans in phase 2147483647
+2020-05-15 20:07:11 -Context refreshed
+2020-05-15 20:07:11 -Found 1 custom documentation plugin(s)
+2020-05-15 20:07:11 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 20:07:11 -Scanning for api listing references
+2020-05-15 20:07:11 -Starting ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:07:11 -Using a shared selector for servlet write/read
+2020-05-15 20:07:11 -Tomcat started on port(s): 9001 (http) with context path ''
+2020-05-15 20:07:11 -Updating port to 9001
+2020-05-15 20:07:11 -Started FitnessBackendServiceApplication in 4.996 seconds (JVM running for 5.754)
+2020-05-15 20:07:45 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-15 20:07:45 -FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-15 20:07:45 -FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2020-05-15 20:12:10 -Resolving eureka endpoints via configuration
+2020-05-15 20:14:50 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2680c934: startup date [Fri May 15 20:07:06 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3f614400
+2020-05-15 20:14:50 -Unregistering application FITNESS-BACKEND-SERVICE with eureka with status DOWN
+2020-05-15 20:14:50 -Saw local status change event StatusChangeEvent [timestamp=1589544890257, current=DOWN, previous=UP]
+2020-05-15 20:14:50 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:14:50 -Stopping beans in phase 2147483647
+2020-05-15 20:14:50 -Stopping beans in phase 0
+2020-05-15 20:14:50 -Unregistering JMX-exposed beans on shutdown
+2020-05-15 20:14:50 -Unregistering JMX-exposed beans
+2020-05-15 20:14:50 -Shutting down DiscoveryClient ...
+2020-05-15 20:14:50 -Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-05-15 20:14:53 -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@36d1c1c2: startup date [Fri May 15 20:14:53 CST 2020]; root of context hierarchy
+2020-05-15 20:14:53 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:14:53 -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$af885811] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:53 -No active profile set, falling back to default profiles: default
+2020-05-15 20:14:54 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8333e8d: startup date [Fri May 15 20:14:54 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@36d1c1c2
+2020-05-15 20:14:54 -Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-05-15 20:14:55 -BeanFactory id=1a051678-e738-30fc-a13c-25d22d6105d2
+2020-05-15 20:14:55 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:14:55 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$936e5514] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2020-05-15 20:14:55 -Bean 'dataSource' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$d99cb6f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$27e2501e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration$$EnhancerBySpringCGLIB$$406eed83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'transactionAdviceConfig' of type [com.fitness.backend.config.TransactionAdviceConfig$$EnhancerBySpringCGLIB$$47ffb192] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$af885811] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:14:55 -Tomcat initialized with port(s): 9001 (http)
+2020-05-15 20:14:55 -Initializing ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:14:55 -Starting service [Tomcat]
+2020-05-15 20:14:55 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2020-05-15 20:14:55 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fuhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-05-15 20:14:55 -Initializing Spring embedded WebApplicationContext
+2020-05-15 20:14:55 -Root WebApplicationContext: initialization completed in 1833 ms
+2020-05-15 20:14:55 -Servlet dispatcherServlet mapped to [/]
+2020-05-15 20:14:55 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-15 20:14:55 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-15 20:14:55 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-15 20:14:55 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-15 20:14:56 -Mapped "{[/service/employeesBasis/add],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.add(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:14:56 -Mapped "{[/service/employeesBasis/update],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.update(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:14:56 -Mapped "{[/service/employeesBasis/delete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.delete(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:14:56 -Mapped "{[/service/employeesBasis/likeSelect],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.likeSelect(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:14:56 -Mapped "{[/service/employeesBasis/batchAdd],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchAdd(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:14:56 -Mapped "{[/service/employeesBasis/batchDelete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchDelete(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:14:56 -Mapped "{[/service/employeesBasis/exportExcel]}" onto public void com.fitness.backend.controller.EmployeesBasisRestService.exportExcel(com.fitness.backend.entity.EmployeesBasisEntity,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:14:56 -Mapped "{[/service/employeesBasis/batchUpdate],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchUpdate(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:14:56 -Mapped "{[/service/employeesBasis/select],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.select(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:14:56 -Mapped "{[/login/doLogin],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogin(com.fitness.backend.entity.User,javax.servlet.http.HttpSession)
+2020-05-15 20:14:56 -Mapped "{[/login/doLogOut],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogOut(javax.servlet.http.HttpSession)
+2020-05-15 20:14:56 -Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-05-15 20:14:56 -Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-05-15 20:14:56 -Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-05-15 20:14:56 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-15 20:14:56 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:14:56 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-15 20:14:56 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:14:56 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:14:56 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:14:56 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:14:56 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:14:56 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8333e8d: startup date [Fri May 15 20:14:54 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@36d1c1c2
+2020-05-15 20:14:56 -Mapped URL path [/employees_basis/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:14:56 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:14:56 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:14:56 -Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:14:56 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:14:56 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:14:56 -Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:14:56 -Detected @ExceptionHandler methods in allExceptionHandler
+2020-05-15 20:14:56 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-05-15 20:14:57 -Unable to start LiveReload server
+2020-05-15 20:14:57 -Registering beans for JMX exposure on startup
+2020-05-15 20:14:57 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-05-15 20:14:57 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-05-15 20:14:57 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-05-15 20:14:57 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-05-15 20:14:57 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-05-15 20:14:57 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-05-15 20:14:57 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=8333e8d,type=ConfigurationPropertiesRebinder]
+2020-05-15 20:14:57 -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-05-15 20:14:57 -Starting beans in phase 0
+2020-05-15 20:14:57 -Setting initial instance status as: STARTING
+2020-05-15 20:14:57 -Initializing Eureka in region us-east-1
+2020-05-15 20:14:57 -Using JSON encoding codec LegacyJacksonJson
+2020-05-15 20:14:57 -Using JSON decoding codec LegacyJacksonJson
+2020-05-15 20:14:57 -Using XML encoding codec XStreamXml
+2020-05-15 20:14:57 -Using XML decoding codec XStreamXml
+2020-05-15 20:14:57 -Resolving eureka endpoints via configuration
+2020-05-15 20:14:57 -Disable delta property : false
+2020-05-15 20:14:57 -Single vip registry refresh property : null
+2020-05-15 20:14:57 -Force full registry fetch : false
+2020-05-15 20:14:57 -Application is null : false
+2020-05-15 20:14:57 -Registered Applications size is zero : true
+2020-05-15 20:14:57 -Application version is -1: true
+2020-05-15 20:14:57 -Getting all instance registry info from the eureka server
+2020-05-15 20:14:58 -The response status is 200
+2020-05-15 20:14:58 -Starting heartbeat executor: renew interval is: 30
+2020-05-15 20:14:58 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-15 20:14:58 -Discovery Client initialized at timestamp 1589544898139 with initial instances count: 2
+2020-05-15 20:14:58 -Registering application FITNESS-BACKEND-SERVICE with eureka with status UP
+2020-05-15 20:14:58 -Saw local status change event StatusChangeEvent [timestamp=1589544898148, current=UP, previous=STARTING]
+2020-05-15 20:14:58 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:14:58 -Starting beans in phase 2147483647
+2020-05-15 20:14:58 -Context refreshed
+2020-05-15 20:14:58 -Found 1 custom documentation plugin(s)
+2020-05-15 20:14:58 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 20:14:58 -Scanning for api listing references
+2020-05-15 20:14:58 -Starting ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:14:58 -Using a shared selector for servlet write/read
+2020-05-15 20:14:58 -Tomcat started on port(s): 9001 (http) with context path ''
+2020-05-15 20:14:58 -Updating port to 9001
+2020-05-15 20:14:58 -Started FitnessBackendServiceApplication in 5.053 seconds (JVM running for 5.94)
+2020-05-15 20:15:01 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-15 20:15:01 -FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-15 20:15:01 -FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2020-05-15 20:16:15 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8333e8d: startup date [Fri May 15 20:14:54 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@36d1c1c2
+2020-05-15 20:16:15 -Unregistering application FITNESS-BACKEND-SERVICE with eureka with status DOWN
+2020-05-15 20:16:15 -Saw local status change event StatusChangeEvent [timestamp=1589544975502, current=DOWN, previous=UP]
+2020-05-15 20:16:15 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:16:15 -Stopping beans in phase 2147483647
+2020-05-15 20:16:15 -Stopping beans in phase 0
+2020-05-15 20:16:15 -Unregistering JMX-exposed beans on shutdown
+2020-05-15 20:16:15 -Unregistering JMX-exposed beans
+2020-05-15 20:16:15 -Shutting down DiscoveryClient ...
+2020-05-15 20:16:15 -Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-05-15 20:16:18 -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5ab8b29d: startup date [Fri May 15 20:16:18 CST 2020]; root of context hierarchy
+2020-05-15 20:16:19 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:16:19 -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e5a9a201] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:19 -No active profile set, falling back to default profiles: default
+2020-05-15 20:16:19 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d357c88: startup date [Fri May 15 20:16:19 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ab8b29d
+2020-05-15 20:16:20 -Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-05-15 20:16:20 -BeanFactory id=1a051678-e738-30fc-a13c-25d22d6105d2
+2020-05-15 20:16:20 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:16:20 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c98f9f04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2020-05-15 20:16:20 -Bean 'dataSource' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$38343e02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$5e039a0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration$$EnhancerBySpringCGLIB$$76903773] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'transactionAdviceConfig' of type [com.fitness.backend.config.TransactionAdviceConfig$$EnhancerBySpringCGLIB$$7e20fb82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e5a9a201] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:16:20 -Tomcat initialized with port(s): 9001 (http)
+2020-05-15 20:16:20 -Initializing ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:16:20 -Starting service [Tomcat]
+2020-05-15 20:16:20 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2020-05-15 20:16:20 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fuhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-05-15 20:16:21 -Initializing Spring embedded WebApplicationContext
+2020-05-15 20:16:21 -Root WebApplicationContext: initialization completed in 1776 ms
+2020-05-15 20:16:21 -Servlet dispatcherServlet mapped to [/]
+2020-05-15 20:16:21 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-15 20:16:21 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-15 20:16:21 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-15 20:16:21 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-15 20:16:21 -Mapped "{[/service/employeesBasis/add],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.add(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:16:21 -Mapped "{[/service/employeesBasis/update],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.update(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:16:21 -Mapped "{[/service/employeesBasis/delete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.delete(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:16:21 -Mapped "{[/service/employeesBasis/batchUpdate],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchUpdate(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:16:21 -Mapped "{[/service/employeesBasis/select],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.select(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:16:21 -Mapped "{[/service/employeesBasis/likeSelect],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.likeSelect(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:16:21 -Mapped "{[/service/employeesBasis/batchAdd],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchAdd(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:16:21 -Mapped "{[/service/employeesBasis/batchDelete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchDelete(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:16:21 -Mapped "{[/service/employeesBasis/exportExcel]}" onto public void com.fitness.backend.controller.EmployeesBasisRestService.exportExcel(com.fitness.backend.entity.EmployeesBasisEntity,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:16:21 -Mapped "{[/login/doLogin],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogin(com.fitness.backend.entity.User,javax.servlet.http.HttpSession)
+2020-05-15 20:16:21 -Mapped "{[/login/doLogOut],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogOut(javax.servlet.http.HttpSession)
+2020-05-15 20:16:21 -Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-05-15 20:16:21 -Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-05-15 20:16:21 -Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-05-15 20:16:21 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-15 20:16:21 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:16:21 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-15 20:16:21 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:16:21 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:16:21 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:16:21 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:16:21 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:16:22 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d357c88: startup date [Fri May 15 20:16:19 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ab8b29d
+2020-05-15 20:16:22 -Mapped URL path [/employees_basis/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:16:22 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:16:22 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:16:22 -Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:16:22 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:16:22 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:16:22 -Detected @ExceptionHandler methods in allExceptionHandler
+2020-05-15 20:16:22 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-05-15 20:16:22 -Unable to start LiveReload server
+2020-05-15 20:16:22 -Registering beans for JMX exposure on startup
+2020-05-15 20:16:22 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-05-15 20:16:22 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-05-15 20:16:22 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-05-15 20:16:22 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-05-15 20:16:22 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-05-15 20:16:22 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-05-15 20:16:22 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4d357c88,type=ConfigurationPropertiesRebinder]
+2020-05-15 20:16:22 -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-05-15 20:16:22 -Starting beans in phase 0
+2020-05-15 20:16:22 -Setting initial instance status as: STARTING
+2020-05-15 20:16:22 -Initializing Eureka in region us-east-1
+2020-05-15 20:16:23 -Using JSON encoding codec LegacyJacksonJson
+2020-05-15 20:16:23 -Using JSON decoding codec LegacyJacksonJson
+2020-05-15 20:16:23 -Using XML encoding codec XStreamXml
+2020-05-15 20:16:23 -Using XML decoding codec XStreamXml
+2020-05-15 20:16:23 -Resolving eureka endpoints via configuration
+2020-05-15 20:16:23 -Disable delta property : false
+2020-05-15 20:16:23 -Single vip registry refresh property : null
+2020-05-15 20:16:23 -Force full registry fetch : false
+2020-05-15 20:16:23 -Application is null : false
+2020-05-15 20:16:23 -Registered Applications size is zero : true
+2020-05-15 20:16:23 -Application version is -1: true
+2020-05-15 20:16:23 -Getting all instance registry info from the eureka server
+2020-05-15 20:16:23 -The response status is 200
+2020-05-15 20:16:23 -Starting heartbeat executor: renew interval is: 30
+2020-05-15 20:16:23 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-15 20:16:23 -Discovery Client initialized at timestamp 1589544983490 with initial instances count: 2
+2020-05-15 20:16:23 -Registering application FITNESS-BACKEND-SERVICE with eureka with status UP
+2020-05-15 20:16:23 -Saw local status change event StatusChangeEvent [timestamp=1589544983501, current=UP, previous=STARTING]
+2020-05-15 20:16:23 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:16:23 -Starting beans in phase 2147483647
+2020-05-15 20:16:23 -Context refreshed
+2020-05-15 20:16:23 -Found 1 custom documentation plugin(s)
+2020-05-15 20:16:23 -Scanning for api listing references
+2020-05-15 20:16:23 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 20:16:23 -Starting ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:16:23 -Using a shared selector for servlet write/read
+2020-05-15 20:16:23 -Tomcat started on port(s): 9001 (http) with context path ''
+2020-05-15 20:16:23 -Updating port to 9001
+2020-05-15 20:16:23 -Started FitnessBackendServiceApplication in 4.978 seconds (JVM running for 5.733)
+2020-05-15 20:16:26 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-15 20:16:26 -FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-15 20:16:26 -FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2020-05-15 20:16:26 -======= 开始执行：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:16:28 -发生系统异常，错误信息为：null
+2020-05-15 20:16:28 -Resolved exception caused by handler execution: java.lang.NullPointerException
+2020-05-15 20:16:41 -======= 开始执行：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:16:41 -Retail_HikariCP - Starting...
+2020-05-15 20:16:41 -Retail_HikariCP - Start completed.
+2020-05-15 20:16:41 -======= 执行结束：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:17:33 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4d357c88: startup date [Fri May 15 20:16:19 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5ab8b29d
+2020-05-15 20:17:33 -Unregistering application FITNESS-BACKEND-SERVICE with eureka with status DOWN
+2020-05-15 20:17:33 -Saw local status change event StatusChangeEvent [timestamp=1589545053331, current=DOWN, previous=UP]
+2020-05-15 20:17:33 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:17:33 -Stopping beans in phase 2147483647
+2020-05-15 20:17:33 -Stopping beans in phase 0
+2020-05-15 20:17:33 -Unregistering JMX-exposed beans on shutdown
+2020-05-15 20:17:33 -Unregistering JMX-exposed beans
+2020-05-15 20:17:33 -Shutting down DiscoveryClient ...
+2020-05-15 20:17:33 -Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-05-15 20:17:33 -Retail_HikariCP - Shutdown initiated...
+2020-05-15 20:17:33 -Retail_HikariCP - Shutdown completed.
+2020-05-15 20:17:33 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 20:17:37 -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@e53dd0c: startup date [Fri May 15 20:17:37 CST 2020]; root of context hierarchy
+2020-05-15 20:17:37 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:17:37 -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bff86080] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:38 -No active profile set, falling back to default profiles: default
+2020-05-15 20:17:38 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3e19e097: startup date [Fri May 15 20:17:38 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@e53dd0c
+2020-05-15 20:17:39 -Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-05-15 20:17:39 -BeanFactory id=1a051678-e738-30fc-a13c-25d22d6105d2
+2020-05-15 20:17:39 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:17:39 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a3de5d83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2020-05-15 20:17:39 -Bean 'dataSource' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$597ce789] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$3852588d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration$$EnhancerBySpringCGLIB$$50def5f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'transactionAdviceConfig' of type [com.fitness.backend.config.TransactionAdviceConfig$$EnhancerBySpringCGLIB$$586fba01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bff86080] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:17:39 -Tomcat initialized with port(s): 9001 (http)
+2020-05-15 20:17:39 -Initializing ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:17:39 -Starting service [Tomcat]
+2020-05-15 20:17:39 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2020-05-15 20:17:39 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fuhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-05-15 20:17:39 -Initializing Spring embedded WebApplicationContext
+2020-05-15 20:17:39 -Root WebApplicationContext: initialization completed in 1828 ms
+2020-05-15 20:17:39 -Servlet dispatcherServlet mapped to [/]
+2020-05-15 20:17:40 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-15 20:17:40 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-15 20:17:40 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-15 20:17:40 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-15 20:17:40 -Mapped "{[/service/employeesBasis/add],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.add(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:17:40 -Mapped "{[/service/employeesBasis/update],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.update(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:17:40 -Mapped "{[/service/employeesBasis/delete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.delete(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:17:40 -Mapped "{[/service/employeesBasis/batchUpdate],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchUpdate(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:17:40 -Mapped "{[/service/employeesBasis/likeSelect],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.likeSelect(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:17:40 -Mapped "{[/service/employeesBasis/batchAdd],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchAdd(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:17:40 -Mapped "{[/service/employeesBasis/batchDelete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchDelete(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:17:40 -Mapped "{[/service/employeesBasis/exportExcel]}" onto public void com.fitness.backend.controller.EmployeesBasisRestService.exportExcel(com.fitness.backend.entity.EmployeesBasisEntity,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:17:40 -Mapped "{[/service/employeesBasis/select],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.select(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:17:40 -Mapped "{[/login/doLogin],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogin(com.fitness.backend.entity.User,javax.servlet.http.HttpSession)
+2020-05-15 20:17:40 -Mapped "{[/login/doLogOut],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogOut(javax.servlet.http.HttpSession)
+2020-05-15 20:17:40 -Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-05-15 20:17:40 -Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-05-15 20:17:40 -Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-05-15 20:17:40 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-15 20:17:40 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:17:40 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-15 20:17:40 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:17:40 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:17:40 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:17:40 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:17:40 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:17:40 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3e19e097: startup date [Fri May 15 20:17:38 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@e53dd0c
+2020-05-15 20:17:40 -Mapped URL path [/employees_basis/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:17:40 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:17:40 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:17:40 -Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:17:40 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:17:40 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:17:41 -Detected @ExceptionHandler methods in allExceptionHandler
+2020-05-15 20:17:41 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-05-15 20:17:41 -Unable to start LiveReload server
+2020-05-15 20:17:41 -Registering beans for JMX exposure on startup
+2020-05-15 20:17:41 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-05-15 20:17:41 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-05-15 20:17:41 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-05-15 20:17:41 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-05-15 20:17:41 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-05-15 20:17:41 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-05-15 20:17:41 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3e19e097,type=ConfigurationPropertiesRebinder]
+2020-05-15 20:17:41 -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-05-15 20:17:41 -Starting beans in phase 0
+2020-05-15 20:17:41 -Setting initial instance status as: STARTING
+2020-05-15 20:17:41 -Initializing Eureka in region us-east-1
+2020-05-15 20:17:41 -Using JSON encoding codec LegacyJacksonJson
+2020-05-15 20:17:41 -Using JSON decoding codec LegacyJacksonJson
+2020-05-15 20:17:41 -Using XML encoding codec XStreamXml
+2020-05-15 20:17:41 -Using XML decoding codec XStreamXml
+2020-05-15 20:17:42 -Resolving eureka endpoints via configuration
+2020-05-15 20:17:42 -Disable delta property : false
+2020-05-15 20:17:42 -Single vip registry refresh property : null
+2020-05-15 20:17:42 -Force full registry fetch : false
+2020-05-15 20:17:42 -Application is null : false
+2020-05-15 20:17:42 -Registered Applications size is zero : true
+2020-05-15 20:17:42 -Application version is -1: true
+2020-05-15 20:17:42 -Getting all instance registry info from the eureka server
+2020-05-15 20:17:42 -The response status is 200
+2020-05-15 20:17:42 -Starting heartbeat executor: renew interval is: 30
+2020-05-15 20:17:42 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-15 20:17:42 -Discovery Client initialized at timestamp 1589545062236 with initial instances count: 2
+2020-05-15 20:17:42 -Registering application FITNESS-BACKEND-SERVICE with eureka with status UP
+2020-05-15 20:17:42 -Saw local status change event StatusChangeEvent [timestamp=1589545062246, current=UP, previous=STARTING]
+2020-05-15 20:17:42 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:17:42 -Starting beans in phase 2147483647
+2020-05-15 20:17:42 -Context refreshed
+2020-05-15 20:17:42 -Found 1 custom documentation plugin(s)
+2020-05-15 20:17:42 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 20:17:42 -Scanning for api listing references
+2020-05-15 20:17:42 -Starting ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:17:42 -Using a shared selector for servlet write/read
+2020-05-15 20:17:42 -Tomcat started on port(s): 9001 (http) with context path ''
+2020-05-15 20:17:42 -Updating port to 9001
+2020-05-15 20:17:42 -Started FitnessBackendServiceApplication in 4.9 seconds (JVM running for 5.83)
+2020-05-15 20:17:46 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-15 20:17:46 -FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-15 20:17:46 -FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2020-05-15 20:17:46 -======= 开始执行：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:17:46 -Retail_HikariCP - Starting...
+2020-05-15 20:17:46 -Retail_HikariCP - Start completed.
+2020-05-15 20:17:47 -======= 执行结束：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:17:58 -======= 开始执行：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:17:58 -======= 执行结束：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:19:23 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3e19e097: startup date [Fri May 15 20:17:38 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@e53dd0c
+2020-05-15 20:19:23 -Unregistering application FITNESS-BACKEND-SERVICE with eureka with status DOWN
+2020-05-15 20:19:23 -Saw local status change event StatusChangeEvent [timestamp=1589545163099, current=DOWN, previous=UP]
+2020-05-15 20:19:23 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:19:23 -Stopping beans in phase 2147483647
+2020-05-15 20:19:23 -Stopping beans in phase 0
+2020-05-15 20:19:23 -Unregistering JMX-exposed beans on shutdown
+2020-05-15 20:19:23 -Unregistering JMX-exposed beans
+2020-05-15 20:19:23 -Shutting down DiscoveryClient ...
+2020-05-15 20:19:23 -Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-05-15 20:19:23 -Retail_HikariCP - Shutdown initiated...
+2020-05-15 20:19:23 -Retail_HikariCP - Shutdown completed.
+2020-05-15 20:19:25 -Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1486dd96: startup date [Fri May 15 20:19:25 CST 2020]; root of context hierarchy
+2020-05-15 20:19:25 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:19:25 -Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$76ab4acf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:25 -No active profile set, falling back to default profiles: default
+2020-05-15 20:19:25 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4f9c4201: startup date [Fri May 15 20:19:25 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1486dd96
+2020-05-15 20:19:26 -Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2020-05-15 20:19:26 -BeanFactory id=1a051678-e738-30fc-a13c-25d22d6105d2
+2020-05-15 20:19:26 -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-05-15 20:19:26 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5a9147d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:26 -Method [void com.zaxxer.hikari.HikariConfig.seal()] is package-visible across different ClassLoaders and cannot get proxied via CGLIB: Declare this method as public or protected if you need to support invocations through the proxy.
+2020-05-15 20:19:26 -Bean 'dataSource' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:26 -Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$710a2ecb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:26 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$ef0542dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$DataSourceTransactionManagerConfiguration$$EnhancerBySpringCGLIB$$791e041] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'transactionManager' of type [org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'transactionAdviceConfig' of type [com.fitness.backend.config.TransactionAdviceConfig$$EnhancerBySpringCGLIB$$f22a450] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'txAdvice' of type [org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'txAdviceAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$76ab4acf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-15 20:19:27 -Tomcat initialized with port(s): 9001 (http)
+2020-05-15 20:19:27 -Initializing ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:19:27 -Starting service [Tomcat]
+2020-05-15 20:19:27 -Starting Servlet Engine: Apache Tomcat/8.5.37
+2020-05-15 20:19:27 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fuhan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-05-15 20:19:27 -Initializing Spring embedded WebApplicationContext
+2020-05-15 20:19:27 -Root WebApplicationContext: initialization completed in 1806 ms
+2020-05-15 20:19:27 -Servlet dispatcherServlet mapped to [/]
+2020-05-15 20:19:27 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-15 20:19:27 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-15 20:19:27 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-05-15 20:19:27 -Mapping filter: 'requestContextFilter' to: [/*]
+2020-05-15 20:19:28 -Mapped "{[/service/employeesBasis/add],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.add(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:19:28 -Mapped "{[/service/employeesBasis/update],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.update(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:19:28 -Mapped "{[/service/employeesBasis/delete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.delete(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:19:28 -Mapped "{[/service/employeesBasis/batchUpdate],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchUpdate(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:19:28 -Mapped "{[/service/employeesBasis/select],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.select(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:19:28 -Mapped "{[/service/employeesBasis/likeSelect],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.likeSelect(com.fitness.backend.entity.EmployeesBasisEntity)
+2020-05-15 20:19:28 -Mapped "{[/service/employeesBasis/batchAdd],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchAdd(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:19:28 -Mapped "{[/service/employeesBasis/batchDelete],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.EmployeesBasisRestService.batchDelete(java.util.List<com.fitness.backend.entity.EmployeesBasisEntity>)
+2020-05-15 20:19:28 -Mapped "{[/service/employeesBasis/exportExcel]}" onto public void com.fitness.backend.controller.EmployeesBasisRestService.exportExcel(com.fitness.backend.entity.EmployeesBasisEntity,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:19:28 -Mapped "{[/login/doLogin],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogin(com.fitness.backend.entity.User,javax.servlet.http.HttpSession)
+2020-05-15 20:19:28 -Mapped "{[/login/doLogOut],methods=[POST]}" onto public com.fitness.backend.entity.CommonResult com.fitness.backend.controller.LoginRestService.doLogOut(javax.servlet.http.HttpSession)
+2020-05-15 20:19:28 -Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-05-15 20:19:28 -Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-05-15 20:19:28 -Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-05-15 20:19:28 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-15 20:19:28 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-15 20:19:28 -Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-15 20:19:28 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:19:28 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:19:28 -No URLs will be polled as dynamic configuration sources.
+2020-05-15 20:19:28 -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-15 20:19:28 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:19:28 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4f9c4201: startup date [Fri May 15 20:19:25 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1486dd96
+2020-05-15 20:19:28 -Mapped URL path [/employees_basis/list] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:19:28 -Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:19:28 -Mapped URL path [/welcome] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:19:28 -Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2020-05-15 20:19:28 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:19:28 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-15 20:19:28 -Detected @ExceptionHandler methods in allExceptionHandler
+2020-05-15 20:19:28 -Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-05-15 20:19:29 -Unable to start LiveReload server
+2020-05-15 20:19:29 -Registering beans for JMX exposure on startup
+2020-05-15 20:19:29 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-05-15 20:19:29 -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-05-15 20:19:29 -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-05-15 20:19:29 -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-05-15 20:19:29 -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-05-15 20:19:29 -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-05-15 20:19:29 -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4f9c4201,type=ConfigurationPropertiesRebinder]
+2020-05-15 20:19:29 -Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-05-15 20:19:29 -Starting beans in phase 0
+2020-05-15 20:19:29 -Setting initial instance status as: STARTING
+2020-05-15 20:19:29 -Initializing Eureka in region us-east-1
+2020-05-15 20:19:29 -Using JSON encoding codec LegacyJacksonJson
+2020-05-15 20:19:29 -Using JSON decoding codec LegacyJacksonJson
+2020-05-15 20:19:29 -Using XML encoding codec XStreamXml
+2020-05-15 20:19:29 -Using XML decoding codec XStreamXml
+2020-05-15 20:19:29 -Resolving eureka endpoints via configuration
+2020-05-15 20:19:29 -Disable delta property : false
+2020-05-15 20:19:29 -Single vip registry refresh property : null
+2020-05-15 20:19:29 -Force full registry fetch : false
+2020-05-15 20:19:29 -Application is null : false
+2020-05-15 20:19:29 -Registered Applications size is zero : true
+2020-05-15 20:19:29 -Application version is -1: true
+2020-05-15 20:19:29 -Getting all instance registry info from the eureka server
+2020-05-15 20:19:30 -The response status is 200
+2020-05-15 20:19:30 -Starting heartbeat executor: renew interval is: 30
+2020-05-15 20:19:30 -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-15 20:19:30 -Discovery Client initialized at timestamp 1589545170047 with initial instances count: 2
+2020-05-15 20:19:30 -Registering application FITNESS-BACKEND-SERVICE with eureka with status UP
+2020-05-15 20:19:30 -Saw local status change event StatusChangeEvent [timestamp=1589545170057, current=UP, previous=STARTING]
+2020-05-15 20:19:30 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001: registering service...
+2020-05-15 20:19:30 -Starting beans in phase 2147483647
+2020-05-15 20:19:30 -Context refreshed
+2020-05-15 20:19:30 -Found 1 custom documentation plugin(s)
+2020-05-15 20:19:30 -Scanning for api listing references
+2020-05-15 20:19:30 -Starting ProtocolHandler ["http-nio-9001"]
+2020-05-15 20:19:30 -DiscoveryClient_FITNESS-BACKEND-SERVICE/192.168.3.33:fitness-backend-service:9001 - registration status: 204
+2020-05-15 20:19:30 -Using a shared selector for servlet write/read
+2020-05-15 20:19:30 -Tomcat started on port(s): 9001 (http) with context path ''
+2020-05-15 20:19:30 -Updating port to 9001
+2020-05-15 20:19:30 -Started FitnessBackendServiceApplication in 4.952 seconds (JVM running for 5.706)
+2020-05-15 20:19:33 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-15 20:19:33 -FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-15 20:19:33 -FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2020-05-15 20:19:33 -======= 开始执行：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:19:33 -Retail_HikariCP - Starting...
+2020-05-15 20:19:33 -Retail_HikariCP - Start completed.
+2020-05-15 20:19:33 -==>  Preparing: select count(1) from `employees_basis` 
+2020-05-15 20:19:33 -==> Parameters: 
+2020-05-15 20:19:33 -<==      Total: 1
+2020-05-15 20:19:33 -==>  Preparing: select e_id, e_name, e_age, e_role, e_mobile, e_code, e_image, e_wechat, e_number, e_induction_time, e_induction_status, e_out_time, create_time, create_u, modify_time, modify_u from `employees_basis` limit ?,? 
+2020-05-15 20:19:33 -==> Parameters: 0(Integer), 10(Integer)
+2020-05-15 20:19:33 -<==      Total: 1
+2020-05-15 20:19:33 -======= 执行结束：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:21:36 -======= 开始执行：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:21:36 -==>  Preparing: select count(1) from `employees_basis` 
+2020-05-15 20:21:36 -==> Parameters: 
+2020-05-15 20:21:36 -<==      Total: 1
+2020-05-15 20:21:36 -==>  Preparing: select e_id, e_name, e_age, e_role, e_mobile, e_code, e_image, e_wechat, e_number, e_induction_time, e_induction_status, e_out_time, create_time, create_u, modify_time, modify_u from `employees_basis` limit ?,? 
+2020-05-15 20:21:36 -==> Parameters: 0(Integer), 10(Integer)
+2020-05-15 20:21:36 -<==      Total: 1
+2020-05-15 20:21:36 -======= 执行结束：EmployeesBasisRestService — likeSelect ========
+2020-05-15 20:24:29 -Resolving eureka endpoints via configuration

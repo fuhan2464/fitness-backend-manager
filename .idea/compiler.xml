@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fitness-backend-inf" />
+        <module name="fitness-backend-module" />
+        <module name="fitness-backend-service" />
+        <module name="fitness-backend-edu" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fitness-backend-edu" options="-parameters" />
+      <module name="fitness-backend-inf" options="-parameters" />
+      <module name="fitness-backend-module" options="-parameters" />
+      <module name="fitness-backend-service" options="-parameters" />
+    </option>
+  </component>
+</project>
